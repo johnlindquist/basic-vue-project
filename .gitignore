@@ -10,3 +10,8 @@ npm-debug.log
 
 # Nuxt generate
 dist
+
+# WebStorm
+.idea
+
+.DS_Store
