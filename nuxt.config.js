@@ -11,4 +11,9 @@ module.exports = {
     ]
   },
   css: ['~assets/main.css'],
+  router:{
+    routes:[
+      {path: '/user/:id', component: 'pages/_user'}
+    ]
+  }
 }

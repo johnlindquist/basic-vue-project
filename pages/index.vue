@@ -1,8 +1,8 @@
 <template>
   <div>
-    <ul>
-      <li v-for="person in people">{{person.name}}</li>
-    </ul>
+      <div v-for="person in people">
+        <router-link :to="'/user/' + person.id">{{person.name}}</router-link>
+      </div>   
   </div>
 </template>
 <script>
