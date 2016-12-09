@@ -1,7 +1,7 @@
 <template>
   <div>
       <div v-for="person in people">
-        <router-link :to="'/user/' + person.id">{{person.name}}</router-link>
+        <router-link :to="{name: 'user', params:{id:person.id}}">{{person.name}}</router-link>
       </div>   
   </div>
 </template>
