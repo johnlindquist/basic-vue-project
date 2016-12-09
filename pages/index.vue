@@ -1,18 +1,5 @@
 <template>
   <div>
-      <div v-for="person in people">
-        <router-link :to="{name: 'user', params:{id:person.id}}">{{person.name}}</router-link>
-      </div>   
+    <h1>Home Page</h1>    
   </div>
 </template>
-<script>
-import axios from 'axios'
-
-const api = `https://swapi-json-server-nvaxelgbew.now.sh/people`
-
-export default {
-  data(){return axios.get(api)
-    .then(res => ({people:res.data}))
-  }
-}
-</script>

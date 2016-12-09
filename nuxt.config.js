@@ -10,10 +10,5 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }
     ]
   },
-  css: ['~assets/main.css'],
-  router:{
-    routes:[
-      {name: 'user', path: '/user/:id', component: 'pages/_user'}
-    ]
-  }
+  css: ['~assets/main.css']
 }

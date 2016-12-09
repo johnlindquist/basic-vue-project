@@ -5,6 +5,6 @@
             <router-link to="/about">About</router-link>
         </nav>
         <nuxt></nuxt>
-        <h3>This is some footer text</h3>
+        <h2>I'm below</h2>
     </nuxt-container>
 </template>
